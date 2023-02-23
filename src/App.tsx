@@ -11,7 +11,6 @@ const App: FC = () => {
 
 
     return (
-        <HashRouter>
             <Routes>
                 <Route path={'/'} element={<MainLayout/>}>
                     <Route path={'/login'} element={<LoginPage/>}/>
@@ -21,7 +20,6 @@ const App: FC = () => {
                     <Route path={'/profile'} element={<PrivateRoute><ProfilePage/></PrivateRoute>}/>
                 </Route>
             </Routes>
-        </HashRouter>
     );
 };
 

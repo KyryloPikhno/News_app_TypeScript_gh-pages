@@ -1,6 +1,6 @@
 {
-  "homepage": "/News_app_TypeScript_hg-pages/#",
-  "name": "News_app_TypeScript_hg-pages",
+  "homepage": "/news",
+  "name": "news",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
