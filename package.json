@@ -1,8 +1,8 @@
 {
-  "homepage": "/News_app_TypeScript_gh-pages",
+  "homepage": "/News_app_TypeScript_gh-pages.git",
   "name": "news",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
