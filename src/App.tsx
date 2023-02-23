@@ -1,6 +1,5 @@
 import React, {FC} from "react";
 import {Route, Routes} from "react-router";
-import {BrowserRouter} from "react-router-dom";
 
 import {HomePage, LoginPage, NewsDetailsPage, NewsPage, ProfilePage} from "./pages";
 import {MainLayout} from "./layouts";
@@ -11,7 +10,6 @@ const App: FC = () => {
 
 
     return (
-        <BrowserRouter basename="/news">
             <Routes>
                 <Route path={'/'} element={<MainLayout/>}>
                     <Route path={'/login'} element={<LoginPage/>}/>
@@ -21,7 +19,6 @@ const App: FC = () => {
                     <Route path={'/profile'} element={<PrivateRoute><ProfilePage/></PrivateRoute>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
     );
 };
 
