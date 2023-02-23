@@ -1,4 +1,5 @@
 import {useTranslation} from "react-i18next";
+import {useNavigate} from "react-router";
 import {FC} from "react";
 import {
     AppBar,
@@ -11,15 +12,16 @@ import {
 const Footer: FC = () => {
     const {t} = useTranslation();
 
+    const navigate = useNavigate();
+
     return (
         <AppBar position="static">
             <Container maxWidth="xl">
-                <Toolbar style={{height:150}} disableGutters>
+                <Toolbar onClick={()=>navigate('/')} style={{height:150}} disableGutters>
                     <Typography
                         variant="h6"
                         noWrap
                         component="a"
-                        href="/"
                         sx={{
                             mr: 2,
                             display: {md: 'flex'},

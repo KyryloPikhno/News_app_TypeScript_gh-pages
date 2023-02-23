@@ -65,11 +65,10 @@ const Header: FC = () => {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <Typography
+                    <Typography onClick={()=>navigator('/')}
                         variant="h6"
                         noWrap
                         component="a"
-                        href="/"
                         sx={{
                             mr: 2,
                             display: {xs: 'none', md: 'flex'},
