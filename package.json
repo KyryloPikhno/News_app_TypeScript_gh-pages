@@ -2,7 +2,7 @@
   "homepage": "/News_app_TypeScript_gh-pages",
   "name": "news",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
