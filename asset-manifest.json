@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/relativepath/static/js/main.b74a8da5.js",
+    "main.js": "/relativepath/static/js/main.01f648a6.js",
     "index.html": "/relativepath/index.html",
     "static/media/getFetch.cjs": "/relativepath/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.b74a8da5.js.map": "/relativepath/static/js/main.b74a8da5.js.map"
+    "main.01f648a6.js.map": "/relativepath/static/js/main.01f648a6.js.map"
   },
   "entrypoints": [
-    "static/js/main.b74a8da5.js"
+    "static/js/main.01f648a6.js"
   ]
 }
